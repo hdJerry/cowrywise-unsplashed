@@ -184,7 +184,7 @@ cardImages
   margin-top: -70px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  z-index: 9999999999999;
+  z-index: 9999999999;
 }
 
 .modalx, .modal-overlay{
@@ -193,7 +193,7 @@ cardImages
   left:0;
   right:0;
   bottom: 0;
-  z-index: 9999999999999;
+  z-index: 9999999999;
   // height: 100%;
 }
 
@@ -204,7 +204,7 @@ cardImages
   visibility: hidden;
  opacity: 0;
  transition: visibility 0s, opacity 0.5s ease-in-out;
- z-index: 9999999999999;
+ z-index: 9999999999;
   // transition: all 5s ease-in-out;
 }
 
@@ -212,7 +212,7 @@ cardImages
   background-color: #898989;
   opacity: 0.7;
   transition: all .5s ease-in-out;
-  z-index: 9999999999999;
+  z-index: 9999999999;
 }
 
 .modalx-body,.modalx-body-container{
@@ -222,7 +222,7 @@ cardImages
   margin-top: 7%;
   border-radius: 6px;
   transition: all .5s ease-in-out;
-  z-index: 9999999999999;
+  z-index: 9999999999;
 }
 .closex{
   position: relative;

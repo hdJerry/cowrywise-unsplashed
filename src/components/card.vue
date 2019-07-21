@@ -1,8 +1,8 @@
 <template lang="html">
   <!-- {{datas}} -->
   <div class="">
-    <div class="grid" v-if="!loading">
-      <div v-for="fake in 6" :key="fake" class="card">
+    <div class="grid grid-fake" v-if="!loading">
+      <div v-for="fake in 6" :key="fake" class="card card-fake">
         <fake-item></fake-item>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
   .grid {
     width: 100%;
     max-width: 500px;
-    margin: -30px auto;
+    margin: -30px 35px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows:auto;
@@ -68,7 +68,8 @@ export default {
 
   .card {
     height: auto;
-    min-height: 30%;
+    min-height:150px;
+    /* max-width: 200px; */
     background: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
@@ -78,6 +79,20 @@ export default {
     z-index: 0;
     transition: all .1s ease-in;
     border-radius: 6px;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .card-fake{
+      height: 35% !important;
+      width: 170px;
+    }
+
+    .grid-fake{
+      margin: -30px 60px;
+    }
   }
 
   .card:nth-of-type(1){

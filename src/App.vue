@@ -224,6 +224,13 @@ cardImages
   transition: all .5s ease-in-out;
   z-index: 9999999999;
 }
+
+@media only screen and (max-width: 600px) {
+  .modalx-body,.modalx-body-container{
+    width: 300px;
+    margin-top: 12%;
+  }
+}
 .closex{
   position: relative;
   right: -110%;

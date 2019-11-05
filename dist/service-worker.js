@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.4cff0537f3693f08edeca436f0f3f7ba.js"
+  "/precache-manifest.9b34da90d260afa6cbd71038811245ce.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "cowrywise-unsplash"});

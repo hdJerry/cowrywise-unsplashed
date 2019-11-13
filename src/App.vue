@@ -156,7 +156,7 @@ cardImages
       this.hasImage = true;
 
 
-      $('body').css('position','fixed');
+      // $('body').css('position','fixed');
 
       $('body .modalx-body .image-body').css({'background-image':`url(${datas.image})`,'background-repeat':'no-repeat','background-size': 'cover','background-position': 'center'});
       $('body .modalx').css({'display':'flex','justify-content':'center','visibility':'visible','opacity':1,'transition': 'visibility 0s, opacity 0.5s ease-in-out'});
@@ -168,7 +168,7 @@ cardImages
       this.location = "";
       this.hasImage = false;
 
-      $('body').css('position','relative');
+      // $('body').css('position','relative');
 
       $('body .modalx-body .image-body').css({'background-image':`url()`,'background-repeat':'no-repeat','background-size': 'cover','background-position': 'center'});
       $('body .modalx').css({'display':'flex','visibility':'hidden','opacity':0,'transition' : 'visibility 0s, opacity 0.5s ease-in-out'});
